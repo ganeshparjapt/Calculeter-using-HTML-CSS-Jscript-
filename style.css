@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(238, 213, 213);
+    
+}
+.calculator{
+    position: absolute;
+    top: 42%;
+    left: 42%;border: 2px solid black;
+    border-radius: 12px ;
+}
+.screen{
+    height: 150px;
+    background: rgb(100, 86, 86);
+    margin: 5px;
+    border-radius: 5px;
+}
+.screenContent{
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(243, 232, 232);
+
+}
+.calculation{
+    font-size: 15px;
+    color: white;
+    overflow: auto;
+    
+}
+.result{
+    
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: whitesmoke;
+}
+
